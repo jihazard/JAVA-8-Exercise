@@ -1,9 +1,11 @@
-package RAMDA;
+package RAMDA_FUNCTION;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.ToIntFunction;
+
+import RAMDA.Student;
 
 public class FunctionExample2 {
 	private static List<Student> list = Arrays.asList(
