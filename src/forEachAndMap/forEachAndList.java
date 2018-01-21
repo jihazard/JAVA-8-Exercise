@@ -28,7 +28,7 @@ public class forEachAndList {
 		
 		items.forEach(System.out::println);
 		items.stream()
-			 .filter(s->s.contains("B"))
+			 .filter(x->x.contains("B"))
 			 .forEach(System.out::println);
 		
 	}
